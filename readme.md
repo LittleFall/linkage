@@ -1,8 +1,8 @@
 # Linkage
 
-Thanks to [manim](https://github.com/3b1b/manim), great math print lib. 
+Thanks to [manim](https://github.com/3b1b/manim), the great math print lib. 
 
-Thanks to [为什么连杆可以画出曲线](https://www.bilibili.com/medialist/play/594380494?from=space&business=space&sort_field=pubtime), great Popular Science video for linkage.
+Thanks to [为什么连杆可以画出曲线](https://www.bilibili.com/medialist/play/594380494?from=space&business=space&sort_field=pubtime), the great Popular Science video for linkage.
 
 ## Run
 
