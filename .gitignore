@@ -1,4 +1,14 @@
-venv
-manim
+# macOS
+.DS_Store
+
+# idea
 .idea
+
+# python
+venv
 __pycache__
+
+# manim
+videos
+manim
+

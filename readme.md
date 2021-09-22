@@ -9,9 +9,18 @@ Thanks to [为什么连杆可以画出曲线](https://www.bilibili.com/medialist
 1. [Install manim](https://github.com/3b1b/manim#installation).
 
 2. Run the linkages by `manimgl <source> <scene>` like:
-```sh
-manimgl main.py Linkage0
-```
+    ```sh
+    manimgl main.py Linkage0
+    ```
+3. Generate mp4
+    ```sh
+    manimgl -w main.py PeaucellierLinkage
+    ```
+4. Generate gif
+    ```sh
+    ffmpeg -i videos/PeaucellierLinkage.mp4 out.gif
+    ```
+
 
 ## TODO
 
