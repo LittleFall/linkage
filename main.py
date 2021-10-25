@@ -142,6 +142,7 @@ class PeaucellierLinkage(Scene):
 
         self.add(fixed_o, fixed_a, driver_b, driven_c, driven_d, target_e, rod_ad, rod_ac, rod_bd, rod_bc, rod_ce, rod_de, rod_ob, driver_path, target_path)
         # drive
+
         self.play(
             MoveAlongPath(driver_b, driver_path),
             UpdateFromFunc(rod_ob, lambda l: l.put_start_and_end_on(fixed_o.get_center(), driver_b.get_center())),
@@ -155,3 +156,5 @@ class PeaucellierLinkage(Scene):
             UpdateFromFunc(rod_ce, lambda l: l.put_start_and_end_on(driven_c.get_center(), target_e.get_center())),
             UpdateFromFunc(rod_de, lambda l: l.put_start_and_end_on(driven_d.get_center(), target_e.get_center())),
         )
+
+        fixed_o.get_updaters()

@@ -26,6 +26,9 @@ Thanks to [为什么连杆可以画出曲线](https://www.bilibili.com/medialist
 
 See TODO in codes.
 
+1. 优化代码结构
+- 初始状态与运行时统一
+
 ## Agreement
 
 ### dot
